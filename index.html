@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 	<head>
 		<title>.js demo </title>
-		<script type="text/javascript" src="Scripts/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="Styles/style.css" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			
+			<script>
+				$(document).ready(function(){
+					$("#monitor").fadeOut(1000,
+						function(){
+							$("#monitor").fadeIn(1000)
+						});
+
+					$("div").addClass("newClass");
+				});
+		 </script>
+
+		 <script type="text/javascript" src="Scripts/script.js"></script>
+		 <script type="text/javascript" src="Scripts/my_library.js"></script>
 
 	</head>
 	<body>
+		
 
-
+		<div id="monitor">
+			:)
+		</div>
 	</body>
 </html>

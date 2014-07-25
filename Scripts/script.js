@@ -54,17 +54,49 @@ createName()
 
 //Example 3
 function name(fname) {
-	return alert(fname);
+	return console.log(fname);
 }
 
 name("Rebecca");
 //
 
 //Example 4
-function door(prize) {
+var door = prompt("Pick Door#1, Door#2, or Door#3");
+console.log(door);
+
+function prize(door) {
+	// var door = prompt('Pick door 1, door 2, door 3')
+	// var door = getElementsByTagName('door').value;
 	console.log("your prize is" + " " + prize);
+
+	if(door == 1) {
+		console.log("Your prize is 1");
+	}
+	else if(door == 2) {
+		console.log("Your prize is 2");
+	}
+	else if(door == 3) {
+		console.log("Your prize is 3");
+	}
 }
 
-door("money");
-door("fame");
-door("nothing");
+prize(door)
+
+//Example 5
+var input = prompt("provide input");
+console.log(input);
+var data = input.value;
+
+function checkData(input){
+	if (input !== null) {
+		alert("Well done!")
+	}
+}
+
+checkData(input)
+
+
+
+
+
+
