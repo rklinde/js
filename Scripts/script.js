@@ -61,7 +61,7 @@ name("Rebecca");
 //
 
 //Example 4
-var door = prompt("Pick Door#1, Door#2, or Door#3");
+/* var door = prompt("Pick Door#1, Door#2, or Door#3");
 console.log(door);
 
 function prize(door) {
@@ -81,9 +81,10 @@ function prize(door) {
 }
 
 prize(door)
+*/
 
 //Example 5
-var input = prompt("provide input");
+/* var input = prompt("provide input");
 console.log(input);
 var data = input.value;
 
@@ -94,6 +95,7 @@ function checkData(input){
 }
 
 checkData(input)
+*/
 
 
 

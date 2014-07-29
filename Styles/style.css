@@ -1,3 +1,9 @@
 #monitor {
 	font-size: 120pt;
 }
+
+.block {
+	background-color: rgb(62,119,190);
+	width: 150px;
+	height: 150px;
+}
